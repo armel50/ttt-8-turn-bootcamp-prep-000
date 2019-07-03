@@ -49,8 +49,13 @@ def turn(board)
   input = gets.strip
   index =input_to_index(input)
  checkValid= valid_move?(board, index)
-  move(board, index)
+  # move(board, index)
   while checkValid== false
+    input = gets.strip
+  index =input_to_index(input)
+ checkValid= valid_move?(board, index)
+ 
   
   end
+  move(board, index)
 end 
