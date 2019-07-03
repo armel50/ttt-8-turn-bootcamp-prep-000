@@ -59,6 +59,6 @@ def turn(board)
   end
   move(board, index)
   display_board(board)
-  turn(board)
+  #turn(board)
   
 end 
