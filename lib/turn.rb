@@ -67,6 +67,6 @@ end
   
   move(board, index)
   
-  #display_board(board)
+  display_board(board)
   
 end 
