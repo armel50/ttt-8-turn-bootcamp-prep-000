@@ -51,6 +51,8 @@ def turn(board)
  #checkValid= valid_move?(board, index)
   # move(board, index)
   while valid_move?(board,index) == false
+    puts "please enter 1-9:"
+
     input = gets.strip
   index =input_to_index(input)
    checkValid= valid_move?(board, index)
