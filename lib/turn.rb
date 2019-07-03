@@ -53,6 +53,8 @@ def turn(board)
   while checkValid == false
     input = gets.strip
   index =input_to_index(input)
+   checkValid= valid_move?(board, index)
+
  checkValid= valid_move?(board, index)
   if checkValid == true 
     break
