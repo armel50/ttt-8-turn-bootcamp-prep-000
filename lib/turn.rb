@@ -60,7 +60,8 @@ def turn(board)
  
   
   end
-  move(board, index)
+  move(board, index,"X")
+  move(board,index,"O")
   display_board(board)
   if(board.include?(" "))
     turn(board)
