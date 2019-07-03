@@ -59,7 +59,7 @@ def turn(board)
   end
  
   
-  end
+  
   
   move(board, index,"X")
   
