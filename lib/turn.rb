@@ -59,6 +59,8 @@ def turn(board)
   end
   move(board, index)
   display_board(board)
-  #turn(board)
+  if(board.include?(" "))
+    turn(board)
+  end
   
 end 
